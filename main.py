@@ -3,9 +3,21 @@
 # Lab 1
 # Problem 1
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+# Create a list called my_list with the values [1, 5, 'apple', 20.5].
+my_list = [1, 5, 'apple', 20.5]
+# Using indexing, print the value 'apple' from my_list.
+# Add the value 10 to the end of my_list using the append() method. Print the updated list.
+# Remove the value 20.5 from my_list using the remove() method. Print the updated list.
+# Reverse the order of the elements in my_list using a method. Print the reversed list.
 
 # Problem 2
 # Put your solution here, make sure I can run it by running this file. Do not submit it commented out.
+# 1. Create a dictionary called person with keys 'name', 'age', 'job' and values 'John', 30, 'teacher'.
+
+# 2. Print the value corresponding to the 'job' key.
+# 3. Add a new key-value pair: 'city': 'Paris' to the person dictionary. Print the updated dictionary.
+# 4. Remove the 'age' key-value pair from person. Print the updated dictionary.
+# 5. Iterate through the person dictionary and print out each key-value pair on a separate line.
 
 # -----------------------------------------------------------------------------
 
@@ -35,6 +47,19 @@ def count_vowels(s: str) -> int:
     """
     # TODO: Implement this function
     pass
+    # approach: step 1
+    # this question is asking me to write a function
+    # we're getting a parameter called 's' and we need to figure out how many vowels are in 's'
+    # then we need to return the count at the end
+    # step 2
+    # write pseudocode
+    # Step #1: iterate over the input string
+    # Step #2: use a for loop to check each letter
+    # Step #3: the check we want to do is to see if the letter is a vowel (a, e, i, o, u) or not
+    # step #4: if the letter is a vowel, then keep track of that somehow
+    # step #5: return the result of that process of keeping track
+
+    
 
 
 # Unit Tests for count_vowels
